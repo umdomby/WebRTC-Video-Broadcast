@@ -4,7 +4,7 @@ const app = express();
 let broadcaster;
 const port = 4000;
 
-const http = require("https");
+const http = require("http");
 const server = http.createServer(app);
 
 const io = require("socket.io")(server);
